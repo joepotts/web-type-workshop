@@ -1,0 +1,163 @@
+@font-face{
+	font-family: 'Magmatic VF';
+	src: url('fonts/Magmatic-VF-Trial.woff2') format('woff2-variations');
+	font-stretch: 50% 150%;
+	font-weight: 100 900;
+}
+
+@font-face{
+	font-family: 'Newsreader';
+	src: url('fonts/Newsreader[opsz,wght].woff2') format('woff2-variations');
+	font-stretch: 50% 150%;
+	font-weight: 100 900;
+}
+
+@font-face{
+	font-family: 'Bernhard';
+	src: url('fonts/BernHardOpti-LightCursive.woff2') format('woff2-variations');
+	font-stretch: 50% 150%;
+	font-weight: 100 900;
+}
+
+
+
+
+
+body{
+	
+	margin: 0;
+	font-size: 16px;
+}
+
+main{
+	background: #f8e1cf;
+	height: 200vh;
+	width: 100vw;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	box-sizing: border-box;
+	padding: 2rem;
+}
+
+.red{
+	text-decoration-color: red;
+}
+
+.newsreader {
+	font-family: 'Newsreader';
+}
+
+.bernhard {
+	font-family: 'Bernhard';
+}
+
+.variant {
+	font-variation-settings: 'wdth' 150, 'wght' 600, 'XHGT' 0;
+}
+
+.condensed{
+	font-size: 1rem;
+	line-height: 0.9;
+	font-variation-settings: 'wdth' 100, 'wght' 200, 'XHGT' 100;
+}
+
+.special{
+	font-size: 2vw;
+}
+
+.boxA{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-size: 8em;
+	line-height: 0.9;
+	text-align: right;
+}
+
+.box1{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	font-size: 20px;
+	line-height: 0.9;
+}
+
+
+
+.box2{
+	font-size: 4em;
+	grid-column: 1/5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.box3{
+	font-size: 8em;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.box4{
+	font-size: 4em;
+	grid-column: 1/5;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+.box5{
+	font-size: 8em;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+
+.box6{
+	font-size: 4em;
+	grid-column: 1/5;
+	grid-row-start: 6;
+	grid-row-end: 7;
+}
+
+.box7{
+	font-size: 8em;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	
+}
+
+.box8{
+	font-size: 4em;
+	grid-column: 1/5;
+	grid-row-start: 8;
+	grid-row-end: 9;
+}
+
+.box9{
+	font-size: 8em;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 9;
+	grid-row-end: 10;
+	text-align: right;
+	
+}
+
+.box10{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	font-size: 20px;
+	line-height: 0.9;
+	text-align: bottom;
+}
+
+.label{
+	grid-column: 3 / 5 ;
+}
+
+
+

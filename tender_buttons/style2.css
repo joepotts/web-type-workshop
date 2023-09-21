@@ -1,0 +1,38 @@
+* {
+	background: greenyellow;
+}
+
+.left {
+
+	display: inline-block;
+	overflow: scroll;
+	background:red;
+	height: 60vh;
+	width: 33vw;
+	scrollbar-color: red orange;
+	scrollbar-width: thin;
+	
+}
+
+.middle {
+	display: inline-block;
+	overflow: scroll;
+	background: blue;
+	height: 60vh;
+	width: 30vw;
+}
+
+.right {
+	display: inline-block;
+	overflow: scroll;
+	background: orange;
+	height: 60vh;
+	width: 30vw;
+	
+}
+
+
+.objects {
+	
+	
+}
