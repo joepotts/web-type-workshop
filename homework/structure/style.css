@@ -159,5 +159,29 @@ main{
 	grid-column: 3 / 5 ;
 }
 
+.skew {
+	transform: skew(10deg, 30deg);
+}		
 
+@keyframes change_skew {
+  0% {
+	transform: skew(0deg, 0deg);
+	border-radius: 0;
+  }
+  50% {
+	color: red;
+	transform: skew(10deg, 30deg);
+	
+  }
+  100% {
+	color: green;
+	transform: skew(20deg, 70deg);
+  }
+}
+
+.animated-div{
+	color: red;
+	
+  animation: change_skew 10s linear 3s infinite alternate;
+}		
 
