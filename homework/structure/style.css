@@ -32,7 +32,7 @@ body{
 main{
 	background: #f8e1cf;
 	height: 200vh;
-	width: 100vw;
+	width: 50vw;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
